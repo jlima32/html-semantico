@@ -1,5 +1,5 @@
 # <div align= center>HTML Semântico</div>
-## Dando significado à estrutura
+## Dando significado às estruturas
 Teste **negrito**
 
 Teste *itálico*
