@@ -21,8 +21,6 @@ Teste *itálico*
 1. Caneta
 2. Régua 
 3. Lápis
-4. Caderno
-5. Borracha
 
 ## Imagens
 
