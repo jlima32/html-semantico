@@ -1,4 +1,4 @@
-# <div align= center>HTML SEMÃNTICO</div>
+# <div align= center>HTML SEMÂNTICO</div>
 ## Dando significado às estruturas
 Teste **negrito**
 
