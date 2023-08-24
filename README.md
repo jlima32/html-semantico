@@ -4,6 +4,8 @@ Teste **negrito**
 
 Teste *itálico*
 
+teste git fetch
+
 ## Links
 
 [Exemplo](https://exemplo.com/)
