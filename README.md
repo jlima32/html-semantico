@@ -38,11 +38,11 @@ document.querySelector('html');
 ```
 
 ~~~php
-echo "Olá, mundo em PHP!";
+echo "Olá, mundo!, em PHP!";
 ~~~
 
 ```java
-System.out.println('Olá, mundo em Java!');
+System.out.println('Olá, mundo!, em Java!');
 ```
 
 ## Tabelas
