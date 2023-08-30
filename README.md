@@ -10,7 +10,7 @@ teste git fetch
 
 [Exemplo](https://exemplo.com/)
 
-*<https://exemplo.com/>*
+*<https://jlima32.github.io/html-semantico/>*
 
 ## Listas
 
