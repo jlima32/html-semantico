@@ -19,3 +19,8 @@ nav li {
     display: inline;
     padding: 36px;
 }
+
+.titulo-de-artigo {
+    color: #575656;
+    font-weight: 600;
+}
