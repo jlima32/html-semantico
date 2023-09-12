@@ -1,0 +1,21 @@
+
+
+header, nav{
+    background-color: #e1e1e1;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #575656;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 2;   
+    text-align: center;
+}
+
+
+nav li {
+    display: inline;
+    padding: 36px;
+}
