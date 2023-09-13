@@ -1,50 +1,89 @@
+:root {
+    --cor-primaria: #DBEAD5;
+    --cor-secundaria: #B6D4B8;
+    --cor-terciaria: #76797c;
+    --cor-quartenaria: #85a187;
+    --cor-fundo: #EEEAEA;
+    }
+
 body {
-    margin: 20px;
+    margin: 0.8rem;
     text-align: justify;
-    background-color: #e4f0f7;
+    background-color: var(--cor-fundo);
 }
 
-header, nav{
-    background-color: #cce0eb;
-    border: 1px solid #1A374D;
+#container{
+    background-color: #FFF;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+header{
     margin-bottom: 1rem;
-    border: dashed 1px #1A374D; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: var(--cor-primaria);
     border-radius: 10px;
 }
 
 .titulo-de-pagina {
-    color: #1A374D;
+    color: var(--cor-terciaria);
     font-weight: 500;
     font-size: 36px;
     line-height: 2;   
     text-align: center;
     font-size: 22pt;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
 }
 
+nav {
+    background-color: var(--cor-fundo);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.6px dashed var(--cor-terciaria);
+    margin: 0.5rem
+}
 nav li {
     padding: 0.6rem;
+    display: inline;
+    letter-spacing: 0.05rem;
 }
 
 nav li a{
-    color: #1A374D;
+    color: var(--cor-terciaria);
     font-weight: bold;
 }
 
-nav li a:hover{
-    text-decoration: underline;
+nav li a:hover,
+.seta a:hover{
+    color: var(--cor-quartenaria);
+    border-bottom: var(--cor-quartenaria) solid 1px;
 }
 
+
+article {
+    background-color: var(--cor-primaria);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
 .titulo-de-artigo {
-    color: #1A374D;
+    background-color: var(--cor-secundaria);
+    max-width: 100%;
+    color: #76797c;
     font-weight: 600;
     line-height: 1.5;
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 .titulo-de-secao{
-    color: #1A374D;
+    color: var(--cor-terciaria);
     line-height: 1.8;
     font-size: 14pt;
     font-weight: bold;
@@ -52,24 +91,39 @@ nav li a:hover{
 }
 
 .subtitulo-de-artigo {
-    color: #1A374D;
+    color: var(--cor-terciaria);
     font-weight: bold;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    line-height: 1.6;
-    color: #1A374D;
+
+
+.seta{
+    text-align: right;
+    padding: 0.6rem;
 }
 
 .paragrafo-de-artigo {
-    background-color: #cce0eb;
-    padding: 0.8rem;
-    margin-top: 0.6rem;
-    border: dashed 1px #1A374D; 
-    border-radius: 10px;
-    margin: 10px;
+    padding-left: 1rem;
+    line-height: 2rem;
+    max-width: 98%;
+    color: var(--cor-terciaria);
+    font-size: 13pt;
+    letter-spacing: 0.5px;
+    
+    
+}
+
+footer {
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    padding: 1rem;
+    letter-spacing: 0.0625rem;
+    border: 1px dashed;
+    border-radius: 0.5rem;
+    font-weight: 900;
 }
 
 
