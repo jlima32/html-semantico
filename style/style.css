@@ -1,9 +1,9 @@
 :root {
-    --cor-primaria: #DBEAD5;
-    --cor-secundaria: #B6D4B8;
-    --cor-terciaria: #76797c;
-    --cor-quartenaria: #85a187;
-    --cor-fundo: #EEEAEA;
+    --cor-primaria: #E6F4F1;
+    --cor-secundaria: #5F93A7;
+    --cor-terciaria: #002A3B;
+    --cor-quartenaria: #F59432;
+    --cor-fundo: #EAEAEA;
     }
 
 body {
@@ -25,6 +25,7 @@ header{
     align-items: center ;
     background-color: var(--cor-primaria);
     border-radius: 10px;
+    
 }
 
 .titulo-de-pagina {
@@ -39,10 +40,9 @@ header{
 }
 
 nav {
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-primaria);
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 0.6px dashed var(--cor-terciaria);
     margin: 0.5rem
 }
 nav li {
@@ -58,8 +58,8 @@ nav li a{
 
 nav li a:hover,
 .seta a:hover{
+    padding-bottom: 1rem;
     color: var(--cor-quartenaria);
-    border-bottom: var(--cor-quartenaria) solid 1px;
 }
 
 
@@ -71,7 +71,7 @@ article {
 .titulo-de-artigo {
     background-color: var(--cor-secundaria);
     max-width: 100%;
-    color: #76797c;
+    color: var(--cor-primaria);
     font-weight: 600;
     line-height: 1.5;
     font-size: 14pt;
@@ -118,12 +118,11 @@ article {
 footer {
     text-align: center;
     background-color: var(--cor-secundaria);
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     padding: 1rem;
     letter-spacing: 0.0625rem;
     border: 1px dashed;
     border-radius: 0.5rem;
     font-weight: 900;
 }
-
 
